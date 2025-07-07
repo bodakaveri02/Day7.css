@@ -1,10 +1,35 @@
 h1{
-    color:blue;
-    background-color:azure; 
+    color:black;
+    background-color:rgb(216, 220, 190); 
     text-align: center;
     font-family: "courier";
 }
+h2{
+    color:blue;
+    background-color:#abcdae;
+    text-align:center;
+    border:dotted;
+    text-decoration:black double underline;
+    line-height: 80px;
+}
+p{
+  color:rgb(227, 72, 186);
+    background-color:rgb(253, 255, 240); 
+    text-align: justify;
+    border:solid;
+    font: weight 700 bold;
+    text-decoration:black wavy underline;
+    line-height: normal;
+    font-family: monospace,fantasy, system-ui, -apple-system, BlinkMacSystemFont;
+    text-transform: uppercase;
+    letter-spacing: 10;
+}
 button{
-    background-color:rgb(86, 250, 86);
-    bottom: center;
+    color:rgb(99, 62, 7);
+    background-color:rgb(15, 233, 15);
+    border:solid;
+    text-decoration:black dotted underline;
+}
+*{
+    color:black;
 }
